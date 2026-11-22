@@ -1,0 +1,14 @@
+# sys_mid7019_mr_32_oemsys-user 12 SP1A.210812.016 mp5V4297 release-keys
+- manufacturer: onn
+- platform: mt8168
+- codename: mid7019_mr_32
+- flavor: sys_mid7019_mr_32_oemsys-user
+- release: 12
+- id: SP1A.210812.016
+- incremental: qyh20240604
+- tags: release-keys
+- fingerprint: onn/100071481/mid7019_mr_32:12/SP1A.210812.016/qyh20240604:user/release-keys
+- is_ab: false
+- brand: onn
+- branch: sys_mid7019_mr_32_oemsys-user-12-SP1A.210812.016-mp5V4297-release-keys
+- repo: onn_mid7019_mr_32_dump
