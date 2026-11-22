@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mixer>
+	<!-- These are the initial mixer settings -->
+	<ctl name="INT ADDA O03_O04 Switch" value="1" />
+	<ctl name="I2S O03_O04 Switch" value="0" />
+	<ctl name="AIN Mux" value="INT ADC" />
+	<ctl name="O03 I05 Switch" value="1" />
+	<ctl name="O04 I06 Switch" value="1" />
+	<ctl name="O05 I05 Switch" value="1" />
+	<ctl name="O06 I06 Switch" value="1" />
+	<ctl name="O09 I03 Switch" value="1" />
+	<ctl name="O10 I04 Switch" value="1" />
+	<ctl name="O03 I07 Switch" value="1" />
+	<ctl name="O04 I08 Switch" value="1" />
+	<ctl name="O11 I09 Switch" value="1" />
+	<ctl name="O12 I22 Switch" value="1" />
+
+	<path name="normal-playback fm">
+		<ctl name="O05 I00 Switch" value="1" />
+		<ctl name="O06 I01 Switch" value="1" />
+		<ctl name="HW_GAIN1_IN_CH1 CONNSYS_I2S_CH1" value="1" />
+		<ctl name="HW_GAIN1_IN_CH2 CONNSYS_I2S_CH2" value="1" />
+		<ctl name="ADDA_DL_CH1 GAIN1_OUT_CH1" value="1" />
+		<ctl name="ADDA_DL_CH2 GAIN1_OUT_CH2" value="1" />
+		<ctl name="FM 2ND I2S Mux" value="FM_2ND_I2S_IN" />
+		<ctl name="FM HW Gain Mux" value="FM_HW_GAIN_IO" />
+	</path>
+
+	<!-- These are actual sound device specific mixer settings -->
+	<path name="normal-playback speaker">
+	</path>
+
+	<path name="normal-playback headphone">
+	</path>
+
+	<path name="normal-playback receiver">
+	</path>
+
+	<path name="normal-playback speaker-and-headphone">
+	</path>
+
+	<path name="normal-playback bt-sco">
+		<ctl name="O03 I05 Switch" value="0" />
+		<ctl name="O04 I06 Switch" value="0" />
+		<ctl name="O07 I05 Switch" value="1" />
+		<ctl name="O08 I06 Switch" value="1" />
+	</path>
+
+	<path name="low-latency-playback speaker">
+	</path>
+
+	<path name="low-latency-playback headphone">
+	</path>
+
+	<path name="low-latency-playback receiver">
+	</path>
+
+	<path name="low-latency-playback speaker-and-headphone">
+	</path>
+
+	<path name="speaker">
+		<ctl name="DAC In Mux" value="Normal Path"/>
+		<ctl name="LOL Mux" value="Playback" />
+	</path>
+
+	<path name="headphone">
+		<ctl name="DAC In Mux" value="Normal Path"/>
+		<ctl name="HPL Mux" value="Audio Playback" />
+		<ctl name="HPR Mux" value="Audio Playback" />
+	</path>
+
+	<path name="receiver">
+	</path>
+
+	<path name="speaker-and-headphone">
+		<ctl name="DAC In Mux" value="Normal Path"/>
+		<ctl name="HPL Mux" value="LoudSPK Playback" />
+		<ctl name="HPR Mux" value="LoudSPK Playback" />
+		<ctl name="LOL Mux" value="Playback" />
+	</path>
+
+	<path name="digital-mic">
+	</path>
+
+	<path name="builtin-mic">
+		<ctl name="Mic Type Mux" value="ACC"/>
+		<ctl name="ADC L Mux" value="Left Preamplifier" />
+		<ctl name="ADC R Mu" value="Right Preamplifier"/>
+		<ctl name="PGA L Mux" value="AIN0" />
+		<ctl name="PGA R Mux" value="AIN0" />
+	</path>
+
+	<path name="back-mic">
+	</path>
+
+	<path name="headset-mic">
+		<ctl name="Mic Type Mux" value="ACC"/>
+		<ctl name="ADC L Mux" value="Left Preamplifier" />
+		<ctl name="ADC R Mu" value="Right Preamplifier"/>
+		<ctl name="PGA L Mux" value="AIN1" />
+		<ctl name="PGA R Mux" value="AIN1" />
+	</path>
+
+</mixer>

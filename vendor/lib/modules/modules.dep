@@ -1,0 +1,15 @@
+/vendor/lib/modules/fmradio_drv_mt6631.ko: /vendor/lib/modules/wmt_drv.ko
+/vendor/lib/modules/fpsgo.ko:
+/vendor/lib/modules/met.ko:
+/vendor/lib/modules/wlan_drv_gen4m.ko: /vendor/lib/modules/wmt_chrdev_wifi.ko /vendor/lib/modules/wmt_drv.ko
+/vendor/lib/modules/met_gpu_api.ko: /vendor/lib/modules/met.ko
+/vendor/lib/modules/met_sspm_api.ko:
+/vendor/lib/modules/met_backlight_api.ko: /vendor/lib/modules/met.ko
+/vendor/lib/modules/wmt_drv.ko:
+/vendor/lib/modules/met_vcore_api.ko:
+/vendor/lib/modules/met_ipi_api.ko:
+/vendor/lib/modules/met_mcupm_api.ko:
+/vendor/lib/modules/bt_drv_connac1x.ko: /vendor/lib/modules/wmt_drv.ko
+/vendor/lib/modules/met_gpu_adv_api.ko: /vendor/lib/modules/met.ko
+/vendor/lib/modules/wmt_chrdev_wifi.ko: /vendor/lib/modules/wmt_drv.ko
+/vendor/lib/modules/met_emi_api.ko: /vendor/lib/modules/met.ko

@@ -1,0 +1,4 @@
+service rpmb_svc /vendor/bin/rpmb_svc
+    class late_start
+    user system
+    group system drmrpc
